@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+.wrapper{
+	border:1px solid #000;
+	height: auto;
+	width: 90%;
+	margin:0 auto;
+}
+
+/* --------------menu admin------- */
+ul.list_admincp{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none
+}
+ul.list_admincp li a:hover{
+    color: brown;
+}
+ul.list_admincp li {
+    padding-right: 50px;
+}
